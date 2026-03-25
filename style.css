@@ -1,0 +1,59 @@
+        body{
+            height: 2000px;
+        }
+        h1{
+
+            font-family: "Roboto Mono", monospace;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+h1, h2{
+    color: aqua;
+}
+
+
+.immagine{
+    height: 60vh;
+    background-image: url(https://picsum.photos/1200/300);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    background-color: rgb(58, 58, 58);
+}
+
+p{
+
+
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+
+}
+
+.bottone{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.bottone:hover{
+    background-color: red;
+    color: black;
+}
+
